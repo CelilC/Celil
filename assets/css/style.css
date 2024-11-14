@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background: red;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    padding-inline: 30px;
+    font-size: 21px;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1, .navlink{
+    color: white;
+}
+
+.fa-bars{
+    display: none;
+}
+
+@media screen and (max-width: 617px) {
+    .navlink{
+        display: none;
+    }
+    
+    .fa-bars{
+        display: block;
+        font-size: 26px;
+        color: white;
+    }
+
+    .brook{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .amogus{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .esger{
+        flex-direction: column;
+        align-items: center;
+    }
+    .esger img{
+        width: 500px;
+    }
+}
+
+
+
+
+#navbttns{
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    width: fit-content;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    right: 0;
+    gap: 10px;
+}
+
+#navbttns a{
+    color: white;
+}
+
+h2{
+    padding-top: 5%;
+}
+
+.brook{
+    display: flex;
+    padding-top: 5%;
+    img{
+        border-radius: 50px;
+    }
+    h3{
+        padding-top: 20px;
+    }
+}
+
+
+.amogus{
+    display: flex;
+    padding-top: 5%;
+    img{
+        border-radius: 50px;
+    }
+    h3{
+        padding-top: 20px;
+    }
+}
+
+.esger{
+    display: flex;
+    padding-top: 5%;
+    img{
+        border-radius: 50px;
+    }
+    h3{
+        padding-top: 20px;
+    }
+}
